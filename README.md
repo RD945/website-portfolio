@@ -10,7 +10,7 @@ script.
 
 - **Folder:** `butter/`
 - **Website name:** Flow
-- **Vercel:** https://butter-topaz.vercel.app
+- **Vercel:** https://flow-rd945s-projects.vercel.app
 - **What it is about:** A CRM and customer-relationship workspace that keeps
   customer context, conversations, follow-ups, tasks, and next steps together
   in one place.
@@ -24,7 +24,7 @@ script.
 
 - **Folder:** `forma/`
 - **Website name:** FORMA
-- **Vercel:** https://forma-seven-sable.vercel.app
+- **Vercel:** https://forma-rd945s-projects.vercel.app
 - **What it is about:** An architectural studio concept focused on thoughtful
   homes, natural materials, quieter living, and spaces shaped around everyday
   life.
@@ -38,7 +38,7 @@ script.
 
 - **Folder:** `auralia/`
 - **Website name:** Auralis
-- **Vercel:** https://auralia-tau.vercel.app
+- **Vercel:** https://auralis-rd945s-projects.vercel.app
 - **What it is about:** A premium product launch and ecommerce-style website
   for wireless headphones. It presents high-resolution audio, active noise
   cancellation, spatial audio, product specifications, selected product work,
@@ -53,7 +53,7 @@ script.
 
 - **Folder:** `webmaker/`
 - **Website name:** Sitecraft
-- **Vercel:** https://sitecraft-topaz.vercel.app
+- **Vercel:** https://sitecraft-rd945s-projects.vercel.app
 - **What it is about:** A storefront for browsing and selecting ready-made
   website packages for businesses, portfolios, and ecommerce stores.
 - **Notable features:** Package filtering and sorting, package detail dialogs,
