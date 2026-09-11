@@ -10,6 +10,7 @@ script.
 
 - **Folder:** `auralia/`
 - **Website name:** Auralis
+- **Vercel:** https://auralis-rd945s-projects.vercel.app
 - **What it is about:** A premium product launch and ecommerce-style website
   for wireless headphones. It presents high-resolution audio, active noise
   cancellation, spatial audio, product specifications, selected product work,
@@ -22,6 +23,7 @@ script.
 
 - **Folder:** `butter/`
 - **Website name:** Flow
+- **Vercel:** https://flow-rd945s-projects.vercel.app
 - **What it is about:** A CRM and customer-relationship workspace that keeps
   customer context, conversations, follow-ups, tasks, and next steps together
   in one place.
@@ -33,6 +35,7 @@ script.
 
 - **Folder:** `design_studio/`
 - **Website name:** Framehouse Films
+- **Vercel:** https://framehouse-films.vercel.app
 - **What it is about:** A film production house for commercial films, narrative
   films, music videos, documentaries, and post-production work.
 - **Notable features:** Selected film portfolio, expandable service list, crew
@@ -42,6 +45,7 @@ script.
 
 - **Folder:** `forma/`
 - **Website name:** FORMA
+- **Vercel:** https://forma-rd945s-projects.vercel.app
 - **What it is about:** An architectural studio concept focused on thoughtful
   homes, natural materials, quieter living, and spaces shaped around everyday
   life.
@@ -56,6 +60,7 @@ script.
 
 - **Folder:** `growth/`
 - **Website name:** Nexora
+- **Vercel:** https://nexora-rd945s-projects.vercel.app
 - **What it is about:** An SEO growth intelligence product that turns search
   data into practical actions. It helps users compare competitors, identify
   keyword gaps, analyze backlink profiles, and prioritize ranking opportunities.
@@ -67,6 +72,7 @@ script.
 
 - **Folder:** `portfolio/`
 - **Website name:** Experience Welcome / Welcome
+- **Vercel:** https://experience-welcome.vercel.app
 - **What it is about:** A marketing website for Welcome, a webinar platform for
   marketers who want to host engaging virtual experiences that drive revenue.
 - **Notable features:** Interactive overlays, polls, Q&A, chat, HD video,
@@ -77,6 +83,7 @@ script.
 
 - **Folder:** `webmaker/`
 - **Website name:** Sitecraft
+- **Vercel:** https://sitecraft-rd945s-projects.vercel.app
 - **What it is about:** A storefront for browsing and selecting ready-made
   website packages for businesses, portfolios, and ecommerce stores.
 - **Notable features:** Package filtering and sorting, package detail dialogs,
