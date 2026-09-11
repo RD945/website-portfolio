@@ -1,6 +1,6 @@
 export const FaqHeader = () => {
   return (
-    <div data-uid="X0V-yqBJ63ADT4TT" className="box-border caret-transparent outline-[3px] w-[358px] mx-auto font-system_ui md:w-[744px] md:font-inter_v">
+    <div data-uid="X0V-yqBJ63ADT4TT" className="box-border caret-transparent outline-[3px] w-[calc(100%-32px)] max-w-[744px] mx-auto font-system_ui md:w-[744px] md:font-inter_v">
       <div data-uid="fqRdgSv9DqF-e7qA" className="box-border caret-transparent outline-[3px] mb-3 font-system_ui md:font-inter_v">
         <div data-uid="X1evOKu57mXn4gFb" className="text-xs font-medium bg-white/0 box-border caret-transparent tracking-[0.96px] leading-4 outline-[3px] uppercase w-max border mb-3 mx-auto px-3.5 py-1 rounded-[999px] border-solid border-white/0 font-system_ui md:text-sm md:tracking-[1.12px] md:leading-6 md:font-inter_v">
           FAQ
@@ -15,7 +15,7 @@ export const FaqHeader = () => {
         Haven’t found what you’re looking for?{" "}
         <a data-uid="QyRHTz-2XUqHEgTk"
           href="#demo"
-          className="text-transparent text-base bg-violet-600 bg-[radial-gradient(86.86%_86.86%_at_50%_111.67%,rgba(255,255,255,0.5)_0%,rgba(255,255,255,0)_100%),radial-gradient(198.77%_172.22%_at_55.56%_112.78%,rgba(136,125,255,0.5)_0%,rgba(136,125,255,0)_100%),none] bg-size-[auto,auto,auto] box-border tracking-[-0.16px] leading-6 outline-[3px] bg-[position:0%,0%,0%_0%,0%,0%] font-system_ui md:text-xl md:tracking-[-0.4px] md:leading-7 md:font-inter_v"
+          className="text-white text-base box-border tracking-[-0.16px] leading-6 outline-[3px] transition-colors duration-200 hover:text-white/75 focus-visible:outline focus-visible:outline-2 focus-visible:outline-white/70 font-system_ui md:text-xl md:tracking-[-0.4px] md:leading-7 md:font-inter_v"
         >
           Contact us.
         </a>

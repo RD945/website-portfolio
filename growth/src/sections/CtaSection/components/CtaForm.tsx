@@ -34,7 +34,7 @@ export const CtaForm = () => {
       <label htmlFor={domainId} className="sr-only">
         Website domain
       </label>
-      <div data-uid="KdZEBRIuGUuNbDAx" className="relative box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] text-wrap transition-transform duration-300 focus-within:scale-[1.01] font-system_ui md:text-nowrap md:font-inter_v">
+      <div data-uid="KdZEBRIuGUuNbDAx" className="relative box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] text-wrap transition-transform duration-300 hover:scale-[1.01] focus-within:scale-[1.01] font-system_ui md:text-nowrap md:font-inter_v">
         <div data-uid="EAmRLFBhDkft-53r" className="relative backdrop-blur-sm bg-white/0 box-border caret-transparent inline-block isolate outline-[3px] text-wrap overflow-hidden rounded-[999px] transition-[box-shadow,border-color] duration-300 focus-within:shadow-[0_0_24px_rgba(139,92,246,0.28)] font-system_ui md:text-nowrap md:font-inter_v">
           <div data-uid="K5MxOOdUDvUnbBzm" className="relative text-sm font-medium box-border caret-transparent tracking-[-0.14px] leading-6 outline-[3px] text-wrap z-[1] border rounded-[999px] border-solid border-white/10 font-system_ui md:text-nowrap md:font-inter_v">
             <input
@@ -52,15 +52,14 @@ export const CtaForm = () => {
               placeholder="example.com"
               aria-invalid={Boolean(error)}
                 aria-describedby={error ? errorId : noteId}
-                className="relative font-normal bg-transparent text-white placeholder:text-white/40 placeholder:transition-colors focus:placeholder:text-violet-200/60 box-border h-[46px] tracking-[normal] leading-[16.1px] max-w-[352px] outline-none text-start text-wrap w-full z-[1] border pl-5 pr-[130px] py-3.5 border-solid border-transparent font-system_ui md:text-nowrap md:font-inter_v"
+                className="relative font-normal bg-transparent text-white placeholder:text-white/40 placeholder:transition-colors hover:placeholder:text-violet-200/60 focus:placeholder:text-violet-200/60 box-border h-[46px] tracking-[normal] leading-[16.1px] max-w-[352px] outline-none text-start text-wrap w-full z-[1] border pl-5 pr-[130px] py-3.5 border-solid border-transparent font-system_ui md:text-nowrap md:font-inter_v"
             />
           </div>
         </div>
         <div data-uid="BgbeDw_zUNaT-6Oy" className="absolute backdrop-blur-sm box-border caret-transparent isolate outline-[3px] text-wrap z-[4] overflow-hidden rounded-[999px] right-1 top-1 font-system_ui md:text-nowrap md:font-inter_v">
           <button data-uid="V1EwAkqIossMUEc1"
             type="submit"
-            disabled={!domain.trim()}
-            className="group relative inline-flex items-center gap-2 text-stone-950/30 text-sm font-medium bg-white/0 bg-[radial-gradient(107.5%_107.5%_at_50%_215%,rgba(255,255,255,0.24)_0%,rgba(255,255,255,0)_100%),none] bg-size-[auto,auto] caret-transparent tracking-[-0.14px] leading-6 outline-[3px] text-wrap z-[1] border bg-[position:0%,0%_0%,0%] px-4 py-[7px] rounded-[999px] border-white/10 transition-all duration-300 enabled:text-white enabled:hover:-translate-y-0.5 enabled:hover:bg-white/10 enabled:hover:border-white/30 enabled:hover:shadow-[0_0_24px_rgba(133,102,255,0.28)] disabled:cursor-not-allowed disabled:opacity-60 md:px-5 font-system_ui md:text-nowrap md:font-inter_v"
+             className="group relative inline-flex items-center gap-2 text-white/70 text-sm font-medium bg-white/0 bg-[radial-gradient(107.5%_107.5%_at_50%_215%,rgba(255,255,255,0.24)_0%,rgba(255,255,255,0)_100%),none] bg-size-[auto,auto] caret-transparent tracking-[-0.14px] leading-6 outline-[3px] text-wrap z-[1] border bg-[position:0%,0%_0%,0%] px-4 py-[7px] rounded-[999px] border-white/10 transition-all duration-300 hover:-translate-y-0.5 hover:bg-white/10 hover:border-white/30 hover:text-white hover:shadow-[0_0_24px_rgba(133,102,255,0.28)] md:px-5 font-system_ui md:text-nowrap md:font-inter_v"
           >
             <span data-uid="7iBADuDS3VVA9IS0" className="relative z-10 text-transparent bg-clip-text bg-[linear-gradient(rgba(255,255,255,0.3)_8.85%,rgb(255,255,255)_100%)] box-border block outline-[3px] text-wrap font-system_ui md:text-nowrap md:font-inter_v">
               Analyze my domain

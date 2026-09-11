@@ -21,7 +21,7 @@ export type FeatureCardProps = {
 export const FeatureCard = (props: FeatureCardProps) => {
   return (
     <div data-uid="ETBPjnairwIZp0U1"
-      className={`relative bg-[linear-gradient(0deg,rgba(191,175,255,0.04)_0%,rgba(191,175,255,0.04)_100%),linear-gradient(rgba(169,163,194,0.05)_0%,rgba(169,163,194,0.2)_100%)] bg-size-[auto,auto] box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-[358px] overflow-hidden bg-[position:0%,0%_0%,0%] rounded-2xl left-0 top-0 font-system_ui md:absolute md:min-h-0 md:min-w-0 md:font-inter_v ${props.outerVariant}`}
+      className={`relative bg-[linear-gradient(0deg,rgba(191,175,255,0.04)_0%,rgba(191,175,255,0.04)_100%),linear-gradient(rgba(169,163,194,0.05)_0%,rgba(169,163,194,0.2)_100%)] bg-size-[auto,auto] box-border caret-transparent min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-[position:0%,0%_0%,0%] rounded-2xl left-0 top-0 font-system_ui md:absolute md:min-h-0 md:min-w-0 md:font-inter_v ${props.outerVariant}`}
     >
       <div data-uid="pNGaWMQ2ejfstlc7"
         className={`absolute bg-slate-950 box-border caret-transparent flex flex-col grow outline-[3px] z-[2] rounded-2xl inset-px font-system_ui md:font-inter_v ${props.cardVariant}`}

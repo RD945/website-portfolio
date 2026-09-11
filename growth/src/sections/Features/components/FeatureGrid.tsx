@@ -3,7 +3,7 @@ import { FeatureCard } from "./FeatureCard";
 export const FeatureGrid = () => {
   return (
     <div data-uid="JeJ9B9ToV9KcOfin" className="relative box-border caret-transparent outline-[3px] font-system_ui md:font-inter_v">
-      <div data-uid="kDhM3QI3yC6uUDQq" className="relative box-border caret-transparent gap-x-6 flex flex-col h-auto outline-[3px] gap-y-6 w-[358px] mx-auto font-system_ui md:gap-x-[normal] md:block md:flex-row md:h-[1164px] md:gap-y-[normal] md:w-[1128px] md:font-inter_v">
+      <div data-uid="kDhM3QI3yC6uUDQq" className="relative box-border caret-transparent gap-x-6 flex flex-col h-auto outline-[3px] gap-y-6 w-[calc(100%-32px)] max-w-[1128px] mx-auto font-system_ui md:gap-x-[normal] md:block md:flex-row md:h-[1164px] md:gap-y-[normal] md:w-[1128px] md:font-inter_v">
         <FeatureCard data-uid="AMx31aq5nQj5JAi1"
           outerVariant="h-[526px] md:h-[544px] md:w-[456px]"
           cardVariant="bg-[linear-gradient(rgba(11,2,23,0)_22.69%,rgba(22,9,42,0.2)_100%)]"

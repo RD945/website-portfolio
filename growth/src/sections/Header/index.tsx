@@ -35,7 +35,7 @@ export const Header = () => {
 
   return (
     <>
-      <header data-uid="q37kBZJpSOuHwM8d" className="fixed items-center backdrop-blur-xl bg-slate-950/45 border border-white/10 box-border caret-transparent flex justify-between outline-[3px] rounded-2xl translate-x-[-50%] w-[calc(100%-16px)] z-[2000] px-4 py-3 left-2/4 top-2 md:w-[1248px] md:px-6 md:py-4 md:top-4 font-system_ui md:font-inter_v">
+      <header data-uid="q37kBZJpSOuHwM8d" className="fixed items-center backdrop-blur-xl bg-slate-950/45 border border-white/10 box-border caret-transparent flex justify-between outline-[3px] rounded-2xl translate-x-[-50%] w-[calc(100%-16px)] max-w-[1128px] z-[2000] px-4 py-2.5 left-2/4 top-2 md:w-[calc(100%-32px)] md:px-6 md:py-3 md:top-4 font-system_ui md:font-inter_v">
         <HeaderLogo data-uid="wrn52asM5KHboeD_" />
         <DesktopNavigation data-uid="_8MH4Z50HwcK1plE" />
         <HeaderActions

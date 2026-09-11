@@ -6,11 +6,35 @@ script.
 
 ## Websites
 
-### 1. Auralis
+### 1. Flow
+
+- **Folder:** `butter/`
+- **Website name:** Flow
+- **Vercel:** https://butter-topaz.vercel.app
+- **What it is about:** A CRM and customer-relationship workspace that keeps
+  customer context, conversations, follow-ups, tasks, and next steps together
+  in one place.
+- **Notable features:** Product overview, customer-work use cases, workflow
+  templates, testimonials, FAQ, responsive navigation, and signup calls to
+  action.
+
+### 2. FORMA
+
+- **Folder:** `forma/`
+- **Website name:** FORMA
+- **Vercel:** https://forma-seven-sable.vercel.app
+- **What it is about:** An architectural studio concept focused on thoughtful
+  homes, natural materials, quieter living, and spaces shaped around everyday
+  life.
+- **Notable features:** Architectural project studies, material palettes, an
+  interactive Material Atelier, design approach/process sections, project
+  dialogs, and a locally generated project brief.
+
+### 3. Auralis
 
 - **Folder:** `auralia/`
 - **Website name:** Auralis
-- **Vercel:** https://auralis-rd945s-projects.vercel.app
+- **Vercel:** https://auralia-tau.vercel.app
 - **What it is about:** A premium product launch and ecommerce-style website
   for wireless headphones. It presents high-resolution audio, active noise
   cancellation, spatial audio, product specifications, selected product work,
@@ -19,57 +43,28 @@ script.
   feature and review sections, pricing selection, order dialog, privacy policy,
   and terms of service pages.
 
-### 2. Flow
+### 4. Sitecraft
 
-- **Folder:** `butter/`
-- **Website name:** Flow
-- **Vercel:** https://flow-rd945s-projects.vercel.app
-- **What it is about:** A CRM and customer-relationship workspace that keeps
-  customer context, conversations, follow-ups, tasks, and next steps together
-  in one place.
-- **Notable features:** Product overview, customer-work use cases, workflow
-  templates, testimonials, FAQ, responsive navigation, and signup calls to
-  action.
+- **Folder:** `webmaker/`
+- **Website name:** Sitecraft
+- **Vercel:** https://sitecraft-topaz.vercel.app
+- **What it is about:** A storefront for browsing and selecting ready-made
+  website packages for businesses, portfolios, and ecommerce stores.
+- **Notable features:** Package filtering and sorting, package detail dialogs,
+  cart state saved in local storage, sample pricing, downloadable order briefs,
+  FAQs, and responsive navigation.
 
-### 3. FORMA
-
-- **Folder:** `forma/`
-- **Website name:** FORMA
-- **Vercel:** https://forma-rd945s-projects.vercel.app
-- **What it is about:** An architectural studio concept focused on thoughtful
-  homes, natural materials, quieter living, and spaces shaped around everyday
-  life.
-- **Notable features:** Architectural project studies, material palettes, an
-  interactive Material Atelier, design approach/process sections, project
-  dialogs, and a locally generated project brief.
-- **Important note:** FORMA is explicitly a concept identity. The projects and
-  photography are illustrative and should be replaced with approved commercial
-  content before launch.
-
-### 4. Nexora
+### 5. Nexora
 
 - **Folder:** `growth/`
 - **Website name:** Nexora
-- **Vercel:** https://nexora-rd945s-projects.vercel.app
+- **Vercel:** https://nexora-nu-khaki-88.vercel.app
 - **What it is about:** An SEO growth intelligence product that turns search
   data into practical actions. It helps users compare competitors, identify
   keyword gaps, analyze backlink profiles, and prioritize ranking opportunities.
 - **Notable features:** SEO product hero, backlink profile analysis, shared
   keyword comparison, ranking opportunity insights, FAQ, domain analysis CTA,
   and responsive navigation.
-
-### 5. Sitecraft
-
-- **Folder:** `webmaker/`
-- **Website name:** Sitecraft
-- **Vercel:** https://sitecraft-rd945s-projects.vercel.app
-- **What it is about:** A storefront for browsing and selecting ready-made
-  website packages for businesses, portfolios, and ecommerce stores.
-- **Notable features:** Package filtering and sorting, package detail dialogs,
-  cart state saved in local storage, sample pricing, downloadable order briefs,
-  FAQs, and responsive navigation.
-- **Important note:** Sitecraft is a storefront preview. It does not process
-  payments or submit live orders; prices and package scope are samples.
 
 ## Running a website
 

@@ -8,11 +8,6 @@ export const FooterContent = () => {
         <FooterBrand data-uid="Mi1D1TfDUT0Y2X6p" />
         <FooterLinks data-uid="DDT-l2hgvKh21vd0" />
       </div>
-      <div data-uid="OxKCBBHSTGBF3bui" className="items-center box-border caret-transparent flex justify-start outline-[3px] py-6 font-system_ui md:py-16 md:font-inter_v">
-        <div data-uid="9T4aiQ1_Cq9PEolD" className="text-gray-400 text-sm box-border caret-transparent tracking-[-0.14px] leading-6 font-system_ui md:font-inter_v">
-          ©2026 Nexora Labs. All rights reserved.
-        </div>
-      </div>
     </div>
   );
 };

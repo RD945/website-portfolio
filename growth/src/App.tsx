@@ -38,7 +38,7 @@ export const App = () => {
   return (
     <div
       data-uid="721viBrMPlpMvu_k"
-      className="relative text-white text-base not-italic normal-nums font-normal accent-auto bg-slate-950 box-border caret-transparent block tracking-[normal] leading-[18.4px] list-outside list-disc outline-[3px] overflow-x-clip pointer-events-auto text-start indent-[0px] normal-case visible w-screen border-separate pt-[86px] font-system_ui md:pt-[104px] md:font-inter_v"
+      className="relative text-white text-base not-italic normal-nums font-normal accent-auto bg-slate-950 box-border caret-transparent block max-w-full tracking-[normal] leading-[18.4px] list-outside list-disc outline-[3px] overflow-x-clip pointer-events-auto text-start indent-[0px] normal-case visible w-full border-separate pt-[86px] font-system_ui md:pt-[104px] md:font-inter_v"
       onClickCapture={(event) => {
         const anchor = event.target instanceof Element ? event.target.closest("a") : null;
         const href = anchor?.getAttribute("href") ?? "";

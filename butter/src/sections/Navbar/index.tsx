@@ -34,19 +34,14 @@ export const Navbar = () => {
   return (
     <nav
       aria-label="Primary navigation"
-      className="fixed inset-x-0 top-4 z-50 mx-auto w-full max-w-[1440px] px-4 md:top-6 md:px-12 lg:px-20"
+      className="absolute inset-x-0 top-4 z-50 mx-auto w-full max-w-[1440px] px-4 md:fixed md:top-6 md:px-12 lg:px-20"
     >
       <div className="relative rounded-2xl bg-white/95 px-4 py-3 shadow-[0_8px_32px_rgba(10,11,30,0.1)] backdrop-blur md:px-5">
         <div className="flex items-center justify-between">
           <a
             href="#top"
-            className="flex items-center gap-2 rounded-lg text-lg font-bold tracking-[-0.04em] text-slate-950 focus:outline-none focus:ring-2 focus:ring-slate-950 focus:ring-offset-2"
+            className="rounded-lg text-lg font-bold tracking-[-0.04em] text-slate-950 focus:outline-none focus:ring-2 focus:ring-slate-950 focus:ring-offset-2"
           >
-            <img
-              src="/assets/remote/cdn.prod.website-files.com/62a9bee08b8f3a766efaa7da/62ac62d37016e6626b8957b5_Butter.svg"
-              alt=""
-              className="h-7 w-7 object-contain"
-            />
             <span>flow</span>
           </a>
 

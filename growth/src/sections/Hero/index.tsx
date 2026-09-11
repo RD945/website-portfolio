@@ -25,8 +25,8 @@ export const Hero = () => {
           </h2>
         </div>
         <div data-uid="8-aiN_k93Fk1bKKu" className="relative box-border caret-transparent outline-[3px] font-system_ui md:font-inter_v">
-          <div data-uid="wa05dQfaKRkPsx2A" className="relative box-border caret-transparent gap-x-6 flex flex-col h-auto outline-[3px] gap-y-6 w-[358px] mx-auto font-system_ui md:gap-x-[normal] md:block md:flex-row md:h-[1164px] md:gap-y-[normal] md:w-[1128px] md:font-inter_v">
-            <div data-uid="bOCJ9aj1haXr76AX" className="relative bg-[linear-gradient(0deg,rgba(191,175,255,0.04)_0%,rgba(191,175,255,0.04)_100%),linear-gradient(rgba(169,163,194,0.05)_0%,rgba(169,163,194,0.2)_100%)] bg-size-[auto,auto] box-border caret-transparent h-[526px] min-h-[auto] min-w-[auto] outline-[3px] w-[358px] overflow-hidden bg-[position:0%,0%_0%,0%] rounded-2xl left-0 top-0 font-system_ui md:absolute md:h-[544px] md:min-h-0 md:min-w-0 md:w-[456px] md:font-inter_v">
+          <div data-uid="wa05dQfaKRkPsx2A" className="relative box-border caret-transparent gap-x-6 flex flex-col h-auto outline-[3px] gap-y-6 w-[calc(100%-32px)] max-w-[1128px] mx-auto font-system_ui md:gap-x-[normal] md:block md:flex-row md:h-[1164px] md:gap-y-[normal] md:w-[1128px] md:font-inter_v">
+            <div data-uid="bOCJ9aj1haXr76AX" className="relative bg-[linear-gradient(0deg,rgba(191,175,255,0.04)_0%,rgba(191,175,255,0.04)_100%),linear-gradient(rgba(169,163,194,0.05)_0%,rgba(169,163,194,0.2)_100%)] bg-size-[auto,auto] box-border caret-transparent h-[526px] min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-[position:0%,0%_0%,0%] rounded-2xl left-0 top-0 font-system_ui md:absolute md:h-[544px] md:min-h-0 md:min-w-0 md:w-[456px] md:font-inter_v">
               <div data-uid="iZ8uUv2Ar3PXasLm" className="absolute bg-slate-950 bg-[linear-gradient(rgba(11,2,23,0)_22.69%,rgba(22,9,42,0.2)_100%)] box-border caret-transparent flex flex-col grow outline-[3px] z-[2] rounded-2xl inset-px font-system_ui md:font-inter_v">
                 <div data-uid="OPI3LcuoYAv1mGUF" className="absolute box-border caret-transparent h-full outline-[3px] pointer-events-none w-full z-[8] font-system_ui md:font-inter_v">
                   <img data-uid="6gq8sz-J18X53CvJ"
@@ -81,7 +81,7 @@ export const Hero = () => {
                 </div>
               </div>
             </div>
-            <div data-uid="YxQ_VtkmbmhnmTlg" className="relative bg-[linear-gradient(0deg,rgba(191,175,255,0.04)_0%,rgba(191,175,255,0.04)_100%),linear-gradient(rgba(169,163,194,0.05)_0%,rgba(169,163,194,0.2)_100%)] bg-size-[auto,auto] box-border caret-transparent h-[558px] min-h-[auto] min-w-[auto] outline-[3px] w-[358px] overflow-hidden bg-[position:0%,0%_0%,0%] rounded-2xl left-0 top-0 font-system_ui md:absolute md:h-[544px] md:min-h-0 md:min-w-0 md:w-[648px] md:left-[480px] md:font-inter_v">
+            <div data-uid="YxQ_VtkmbmhnmTlg" className="relative bg-[linear-gradient(0deg,rgba(191,175,255,0.04)_0%,rgba(191,175,255,0.04)_100%),linear-gradient(rgba(169,163,194,0.05)_0%,rgba(169,163,194,0.2)_100%)] bg-size-[auto,auto] box-border caret-transparent h-[558px] min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-[position:0%,0%_0%,0%] rounded-2xl left-0 top-0 font-system_ui md:absolute md:h-[544px] md:min-h-0 md:min-w-0 md:w-[648px] md:left-[480px] md:font-inter_v">
               <div data-uid="cDIL1oKtwv-6mxly" className="absolute bg-slate-950 bg-[linear-gradient(rgba(11,2,23,0)_22.69%,rgba(22,9,42,0.5)_100%)] box-border caret-transparent flex flex-col grow outline-[3px] z-[2] rounded-2xl inset-px font-system_ui md:font-inter_v">
                 <div data-uid="slJm9EJ7vCZYxRPp" className="absolute box-border caret-transparent h-full outline-[3px] pointer-events-none w-full z-[8] font-system_ui md:font-inter_v">
                   <img data-uid="FSTasDy__9IZ_k50"
@@ -126,7 +126,7 @@ export const Hero = () => {
                 </div>
               </div>
             </div>
-            <div data-uid="QegMtNYiX2eMjNiF" className="relative bg-[linear-gradient(0deg,rgba(191,175,255,0.04)_0%,rgba(191,175,255,0.04)_100%),linear-gradient(rgba(169,163,194,0.05)_0%,rgba(169,163,194,0.2)_100%)] bg-size-[auto,auto] box-border caret-transparent h-[638px] min-h-[auto] min-w-[auto] outline-[3px] w-[358px] overflow-hidden bg-[position:0%,0%_0%,0%] rounded-2xl left-0 top-0 font-system_ui md:absolute md:h-[596px] md:min-h-0 md:min-w-0 md:w-[1128px] md:top-[568px] md:font-inter_v">
+            <div data-uid="QegMtNYiX2eMjNiF" className="relative bg-[linear-gradient(0deg,rgba(191,175,255,0.04)_0%,rgba(191,175,255,0.04)_100%),linear-gradient(rgba(169,163,194,0.05)_0%,rgba(169,163,194,0.2)_100%)] bg-size-[auto,auto] box-border caret-transparent h-[638px] min-h-[auto] min-w-[auto] outline-[3px] w-full overflow-hidden bg-[position:0%,0%_0%,0%] rounded-2xl left-0 top-0 font-system_ui md:absolute md:h-[596px] md:min-h-0 md:min-w-0 md:w-[1128px] md:top-[568px] md:font-inter_v">
               <div data-uid="njSSq8J-N4i2xNXU" className="absolute bg-slate-950 bg-[radial-gradient(47.16%_90.82%_at_50%_0%,rgba(133,102,255,0.08)_0%,rgba(133,102,255,0)_100%),linear-gradient(rgba(11,2,23,0)_22.69%,rgba(22,9,42,0.5)_100%)] bg-size-[auto,auto] box-border caret-transparent flex flex-col grow outline-[3px] z-[2] bg-[position:0%,0%_0%,0%] rounded-2xl inset-px font-system_ui md:font-inter_v">
                 <div data-uid="mAwWlC265plcVPCX" className="absolute box-border caret-transparent h-full outline-[3px] pointer-events-none w-full z-[8] font-system_ui md:font-inter_v">
                   <img data-uid="L70Azo4KloZ1op1p"
@@ -171,7 +171,7 @@ export const Hero = () => {
             className="aspect-[auto_2560_/_508] box-border caret-transparent inline h-full outline-[3px] align-baseline w-full font-system_ui md:font-inter_v"
           />
         </div>
-        <div data-uid="Cq25s37zkm_Drbo4" className="box-border caret-transparent outline-[3px] w-[358px] mx-auto font-system_ui md:w-[744px] md:font-inter_v">
+         <div data-uid="Cq25s37zkm_Drbo4" className="box-border caret-transparent outline-[3px] w-[calc(100%-32px)] max-w-[744px] mx-auto font-system_ui md:w-[744px] md:font-inter_v">
           <div data-uid="Bs7A3ezFoVXzLOq9" className="box-border caret-transparent outline-[3px] mb-3 font-system_ui md:font-inter_v">
             <div data-uid="whPvsgj6ZxIAGfmf" className="text-xs font-medium bg-white/0 box-border caret-transparent tracking-[0.96px] leading-4 outline-[3px] uppercase w-max border mb-3 mx-auto px-3.5 py-1 rounded-[999px] border-solid border-white/0 font-system_ui md:text-sm md:tracking-[1.12px] md:leading-6 md:font-inter_v">
               FAQ
@@ -186,7 +186,7 @@ export const Hero = () => {
             Haven’t found what you’re looking for?{" "}
             <a data-uid="CjO_0NxvZrXlD1Mo"
               href="#demo"
-              className="text-transparent text-base bg-violet-600 bg-[radial-gradient(86.86%_86.86%_at_50%_111.67%,rgba(255,255,255,0.5)_0%,rgba(255,255,255,0)_100%),radial-gradient(198.77%_172.22%_at_55.56%_112.78%,rgba(136,125,255,0.5)_0%,rgba(136,125,255,0)_100%),none] bg-size-[auto,auto,auto] box-border tracking-[-0.16px] leading-6 outline-[3px] bg-[position:0%,0%,0%_0%,0%,0%] font-system_ui md:text-xl md:tracking-[-0.4px] md:leading-7 md:font-inter_v"
+              className="text-white text-base box-border tracking-[-0.16px] leading-6 outline-[3px] transition-colors duration-200 hover:text-white/75 focus-visible:outline focus-visible:outline-2 focus-visible:outline-white/70 font-system_ui md:text-xl md:tracking-[-0.4px] md:leading-7 md:font-inter_v"
             >
               Contact us.
             </a>
@@ -194,7 +194,7 @@ export const Hero = () => {
         </div>
         <FaqList data-uid="7lH_atUTpPWsggOH" />
       </div>
-      <div id="demo" data-reveal data-uid="yjAEca4_Re1I2TaC" className="relative bg-[url('/assets/remote/c.animaapp.com/tO-VzA9Kzm3PB0vGDP_xYA/assets/cta-background.png')] bg-cover box-border caret-transparent h-[588px] outline-[3px] w-[358px] overflow-hidden mx-auto font-system_ui md:h-[642px] md:w-[1128px] md:font-inter_v">
+      <div id="demo" data-reveal data-uid="yjAEca4_Re1I2TaC" className="relative bg-[url('/assets/remote/c.animaapp.com/tO-VzA9Kzm3PB0vGDP_xYA/assets/cta-background.png')] bg-cover box-border caret-transparent h-[588px] outline-[3px] w-[calc(100%-32px)] max-w-[1128px] overflow-hidden mx-auto font-system_ui md:h-[642px] md:w-[1128px] md:font-inter_v">
         <div data-uid="CQW2V_tKKXtTVgXn" className="absolute box-border caret-transparent hidden left-[-60px] opacity-50 outline-[3px] pointer-events-none w-[1248px] top-[336px] font-system_ui md:block md:top-24 md:font-inter_v">
           <div data-uid="Il3T6N6PImAFveC9" className="relative bg-no-repeat bg-contain box-border caret-transparent hidden h-[202px] outline-[3px] w-full mb-[361px] font-system_ui md:block md:font-inter_v">
             <div data-uid="VFye1z9UhfcfjbQ8" className="absolute box-border caret-transparent hidden h-full [mask-repeat:no-repeat] [mask-size:cover] outline-[3px] w-full z-[9] left-0 top-0 font-system_ui md:font-inter_v"></div>
