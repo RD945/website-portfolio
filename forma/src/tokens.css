@@ -1,0 +1,3 @@
+:root{--paper:#eee8de;--paper-light:#f4efe7;--ink:#29382e;--muted:#686455;--olive:#81503c;--line:#cec4b4;--sans:'DM Sans',sans-serif;--serif:'EB Garamond',Georgia,serif;--clay:#e0bea5;--clay-light:#ebd1bd;--clay-deep:#c9987b;--forest:#233c31;--forest-mid:#2f4a3c;--forest-soft:#3b5948;--forest-deep:#182c24;--sage:#c4cba5;--sage-light:#d9deca;--sage-deep:#aab692;--rust:#a85032;--rust-light:#c97958;--cream:#f7eee0}
+@font-face{font-family:'EB Garamond';font-style:normal;font-weight:400;font-display:optional;src:url('/fonts/eb-garamond-latin-subset.woff2') format('woff2')}
+@font-face{font-family:'DM Sans';font-style:normal;font-weight:400;font-display:swap;src:url('../node_modules/@fontsource/dm-sans/files/dm-sans-latin-400-normal.woff2') format('woff2')}

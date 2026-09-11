@@ -1,0 +1,34 @@
+{
+  "exporter": "Anima Production Full Project Exporter",
+  "version": "5.0.0",
+  "exportedAt": "2026-09-11T13:54:28.370Z",
+  "zipEngine": "fflate streaming ZipPassThrough",
+  "outputMode": "blob-fallback",
+  "buildArchitecture": "Vite + PostCSS + Tailwind CSS",
+  "browserTailwindRuntime": false,
+  "publicDir": "./public",
+  "precompileFiles": 56,
+  "runtimeFiles": 26,
+  "finalProjectFiles": 59,
+  "localizedResources": 95,
+  "failedResources": 0,
+  "fixes": {
+    "vitePublicDirectory": true,
+    "postcssConfig": true,
+    "exportedTailwindConfig": true,
+    "removeRuntimeTailwindConfigImport": true,
+    "removeBrowserTailwindRuntime": true,
+    "removeDuplicateTailwindStylesheetLink": true,
+    "compileTailwindViaPostCSS": true,
+    "nestedReactBody": true,
+    "removeInjectScript": true,
+    "removeDisplayNoneTransitionRule": true
+  },
+  "buildInstructions": {
+    "install": "npm install",
+    "dev": "npm run dev",
+    "build": "npm run build",
+    "preview": "npm run preview"
+  },
+  "failures": []
+}

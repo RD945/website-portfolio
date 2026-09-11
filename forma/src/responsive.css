@@ -1,0 +1,17 @@
+/* Keep the art-directed picture in the same reserved frame as the original hero. */
+.hero-image picture{display:block;height:100%}
+.hero-image picture img{height:100%;object-position:center 58%;filter:brightness(.89)}
+.image-open{min-width:44px;min-height:44px}
+.text-link{min-height:44px;align-items:center}
+.project-caption h3 button{min-height:44px}
+@media(max-width:700px){
+  .hero-image picture img{object-position:center}
+  input,select,textarea{font-size:16px}
+  .footer-top>a:last-child{min-height:44px;display:flex;align-items:center}
+}
+@media(hover:none){.project-view{opacity:1;transform:none}}
+@media(max-width:370px){
+  .contact-main{align-items:flex-start}
+  .contact h2{font-size:32px}
+  .contact-circle{width:48px;height:48px}
+}

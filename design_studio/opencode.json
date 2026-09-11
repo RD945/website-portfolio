@@ -1,0 +1,12 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "figma": {
+      "type": "local",
+      "command": [
+        "C:\\Users\\Reetam\\.bun\\bin\\bun.exe",
+        "C:\\Users\\Reetam\\.figma-mcp\\cursor-talk-to-figma-mcp\\dist\\server.js"
+      ]
+    }
+  }
+}

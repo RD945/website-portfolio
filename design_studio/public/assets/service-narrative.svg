@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 160" role="img">
+  <defs>
+    <linearGradient id="narrative-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#071121" />
+      <stop offset="0.6" stop-color="#19233b" />
+      <stop offset="1" stop-color="#07090f" />
+    </linearGradient>
+    <radialGradient id="narrative-moon">
+      <stop stop-color="#fff1c4" />
+      <stop offset="0.18" stop-color="#f3bf79" stop-opacity="0.95" />
+      <stop offset="1" stop-color="#e68557" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="narrative-window" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#ffd791" stop-opacity="0.95" />
+      <stop offset="1" stop-color="#b54d50" stop-opacity="0.22" />
+    </linearGradient>
+  </defs>
+  <rect width="480" height="160" fill="url(#narrative-bg)" />
+  <circle cx="390" cy="42" r="76" fill="url(#narrative-moon)" opacity="0.8" />
+  <path d="M0 130c95-26 129-18 205 3 96 27 177 0 275-24v51H0Z" fill="#05070c" />
+  <rect x="93" y="28" width="78" height="88" fill="#0d111d" stroke="#db9c65" stroke-opacity="0.6" />
+  <rect x="105" y="40" width="54" height="64" fill="url(#narrative-window)" opacity="0.8" />
+  <path d="M132 40v64M105 72h54" stroke="#2a1a25" stroke-opacity="0.6" stroke-width="3" />
+  <path d="M245 128c2-32 12-52 28-52 17 0 25 24 28 52" fill="#06080d" />
+  <circle cx="273" cy="62" r="9" fill="#080a10" />
+  <path d="M237 140h75" stroke="#d08a62" stroke-opacity="0.5" stroke-width="2" />
+</svg>

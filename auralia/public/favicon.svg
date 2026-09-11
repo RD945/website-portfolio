@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="title">
+  <title>Auralis</title>
+  <rect width="48" height="48" rx="12" fill="#0d2721"/>
+  <circle cx="19" cy="24" r="4.5" fill="#d8e7de"/>
+  <path d="M28 13.5a15 15 0 0 1 0 21" fill="none" stroke="#d8e7de" stroke-width="2" stroke-linecap="round"/>
+  <path d="M34 8.5a22 22 0 0 1 0 31" fill="none" stroke="#a7c2b1" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M41 4a29 29 0 0 1 0 40" fill="none" stroke="#799c89" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M11 18a9 9 0 0 0 0 12" fill="none" stroke="#a7c2b1" stroke-width="1.6" stroke-linecap="round"/>
+</svg>

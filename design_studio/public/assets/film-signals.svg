@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 960" role="img">
+  <defs>
+    <linearGradient id="signals-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0a1024" />
+      <stop offset="0.5" stop-color="#102d50" />
+      <stop offset="1" stop-color="#5b3f91" />
+    </linearGradient>
+    <linearGradient id="signals-road" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#14223d" />
+      <stop offset="1" stop-color="#05070e" />
+    </linearGradient>
+    <filter id="signals-blur"><feGaussianBlur stdDeviation="24" /></filter>
+  </defs>
+  <rect width="1200" height="960" fill="url(#signals-bg)" />
+  <g filter="url(#signals-blur)" opacity="0.9">
+    <circle cx="163" cy="283" r="74" fill="#49b4ff" />
+    <circle cx="1050" cy="224" r="88" fill="#d846c7" />
+    <circle cx="810" cy="562" r="58" fill="#4fe4dc" />
+    <circle cx="295" cy="690" r="51" fill="#ff8e5b" />
+  </g>
+  <path d="M0 642h1200v318H0Z" fill="url(#signals-road)" opacity="0.9" />
+  <path d="M0 735 1200 652M0 814l1200-80M0 893l1200-87" stroke="#5ec9ec" stroke-opacity="0.18" stroke-width="4" />
+  <g fill="none" stroke-linecap="round">
+    <path d="M42 650 204 388l172 262M552 644 702 277l166 367M912 646l119-285 148 285" stroke="#a7e7ff" stroke-opacity="0.52" stroke-width="8" />
+    <path d="M80 638h146M634 638h155M962 638h160" stroke="#f8b1ff" stroke-opacity="0.8" stroke-width="8" />
+  </g>
+  <path d="M520 845h160" stroke="#69e3f3" stroke-opacity="0.64" stroke-width="5" />
+</svg>

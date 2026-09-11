@@ -1,0 +1,109 @@
+/* Render-measured corrections, shared by desktop and mobile. */
+body { font-family: Arial, sans-serif; }
+.hero-actions .button-orange { background:#ff5a1f; box-shadow:0 14px 32px #ff5a1f52; }
+.hero-actions .button { flex-shrink:0; letter-spacing:0; }
+.hero-actions .button span,.hero-actions .text-arrow-link span { font-size:16px; }
+.hero-scroll,.ai-copy>.eyebrow,.orbit-label,.orbit-glow,.access-copy>.eyebrow,.access-star,.art-caption,.access-art::before,.access-art::after { display:none; }
+.tutor-snapshot { width:100%; }
+.tutor-snapshot img { width:calc(100% + 18px); object-fit:fill; }
+.trust-strip { background:#f8f4ef; }
+.trust-inner>p { font:14px Arial,sans-serif; text-transform:none; letter-spacing:0; }
+.trust-logos img { height:40px; filter:none; opacity:.85; }
+.trust-logos img:nth-child(even) { height:44px; }
+.ai-section { padding:0; background:#1a1a1a; }
+.ai-copy { top:268px; }
+.ai-copy p:not(.eyebrow) { color:#ffffffe6; }
+.ai-actions .button { height:48px; min-height:48px; font:600 13px Arial,sans-serif; letter-spacing:0; }
+.ai-actions .button-orange { color:white; }
+.ai-actions .button span { display:none; }
+.orbit-center { width:55%; left:44%; }
+.orbiting-logos>span { border-radius:8px; overflow:hidden; }
+.window-dots { display:flex; gap:8px; }
+.window-dots i { display:block; width:11px; height:11px; border-radius:50%; }
+.window-dots i:nth-child(1) { background:#f26b5e; }
+.window-dots i:nth-child(2) { background:#f1b94b; }
+.window-dots i:nth-child(3) { background:#5ebd63; }
+.feature-card-art,.audience-art,.audience-card:nth-child(2) .audience-art,.audience-card:nth-child(3) .audience-art { background:transparent; }
+.features-section .split-heading { grid-template-columns:726px 350px; gap:24px; }
+.features-section .eyebrow { font-size:9px; margin-bottom:16px; }
+.features-section .card-copy p,.audience-copy p { color:#3f3a36; font:15px/1.45 Arial,sans-serif; }
+.features-section .card-copy h3 { margin-bottom:28px; }
+.features-section .feature-card:last-child .feature-card-art { height:178px; }
+.features-section .feature-card:last-child .feature-card-art img { height:131px; }
+.audience-copy h3 { margin-bottom:24px; }
+.faq-panel { grid-template-columns:minmax(0,1fr) minmax(0,1fr); align-items:start; }
+.faq-answer { height:340px; }
+.faq-answer .mono-label { display:none; }
+.faq-answer-mascot { bottom:-24px; right:-24px; }
+.access-card { grid-template-columns:minmax(0,1fr) 220px; gap:48px; padding:48px 64px; max-width:calc(100% - 40px); }
+.access-copy { padding:0; }
+.access-copy h2 { font-size:clamp(2.8rem,5vw,4.4rem); }
+.access-copy h2 br { display:none; }
+.access-copy h2 em { color:inherit; font-style:normal; }
+.access-copy>p:not(.eyebrow) { max-width:500px; color:#ffffffe6; }
+.access-copy .button { color:white; }
+.access-art { min-height:220px; height:220px; overflow:visible; }
+.access-art img { animation:none; }
+.manifesto-strip { background:#002b42; padding:64px 0; }
+.manifesto-inner { display:block; text-align:center; padding:44px 32px; border:1px solid #ffffff26; border-radius:24px; background:#ffffff08; }
+.manifesto-inner .eyebrow { display:none; }
+.manifesto-inner h2 { font-size:60px; }
+.manifesto-inner h2 em { color:inherit; font-style:normal; }
+.manifesto-inner>p { max-width:640px; margin:24px auto; font:16px/1.6 Arial,sans-serif; }
+.site-footer { background:#002b42; }
+.footer-top { grid-template-columns:1fr 1fr; padding-top:32px; padding-bottom:48px; }
+.footer-cta { display:none; }
+@media(min-width:761px) {
+  .what-section .centered-heading { padding-top:128px; }
+  .what-section .centered-heading>p:last-child { max-width:440px; font-size:15px; }
+  .what-section .jobs-grid { position:relative; height:5150px; margin:318px auto 0; }
+  .what-section .job-card { position:sticky; top:calc(50vh - 229px); display:none; }
+  .what-section .job-card.is-current { display:grid; }
+  .what-section .job-image { border-radius:44px; }
+}
+.job-ui { top:25%; left:19%; right:auto; width:62%; min-height:51%; padding:16px; background:#fffffff5; font:12px/1.5 Arial,sans-serif; }
+.job-ui>span { font:600 13px Arial,sans-serif; color:#211d19; }
+.job-ui b { font-size:12px; }
+.job-ui small { font-size:11px; background:white; border:1px solid #eee; border-radius:12px; padding:8px; }
+.job-ui strong { font-size:11px; }
+.quiz-ui label { font:11px/1.4 Arial,sans-serif; padding:8px; }
+.code-ui { background:#18201ef5; color:white; }
+.code-ui>span { color:#a9c8a6; }
+.code-ui code { font-size:10px; }
+@media(max-width:760px) {
+  .hero-copy { text-align:center; }
+  .hero-backdrop { background-position:center 35%; }
+  .ai-copy { top:80px; }
+  .ai-copy h2 { font-size:56px; }
+  .orbit-wrap { top:457px; left:24px; width:546px; height:546px; transform:none; }
+  .orbiting-logos>span { width:33px; height:33px; transform:rotate(var(--angle)) translateY(-273px) rotate(calc(var(--angle) * -1)); }
+  .features-section .split-heading { display:block; }
+  .features-section .card-copy h3 { margin-bottom:28px; }
+  .what-section .centered-heading { padding-top:96px; }
+  .what-section .centered-heading>p:last-child { padding:0; }
+  .what-section .jobs-grid { margin:40px auto 0; gap:55px; }
+  .what-section .job-copy { padding-top:24px; }
+  .what-section .job-copy .card-index { margin-bottom:8px; }
+  .job-ui { top:27%; left:6%; width:88%; min-height:50%; }
+  .audience-copy { padding:16px 28px 24px; }
+  .faq-intro { text-align:center; }
+  .faq-panel { width:100%; margin-top:40px; }
+  .faq-answer { height:auto; min-height:264px; padding:24px; }
+  .faq-question,.faq-question:nth-child(n),.faq-answer { order:0; }
+  .faq-answer p { font:15px/1.65 Arial,sans-serif; margin-top:20px; }
+  .faq-answer-mascot { width:80px; height:80px; }
+  .access-card { display:flex; padding:40px 24px; gap:40px; width:calc(100% - 40px); max-width:none; height:auto; min-height:511px; }
+  .access-copy { padding:0; width:100%; }
+  .access-copy>p:not(.eyebrow) { font-size:15px; }
+  .access-art { align-self:flex-end; height:150px; min-height:150px; margin:0; }
+  .manifesto-strip { padding:40px 0; }
+  .manifesto-inner { padding:32px 20px; }
+  .manifesto-inner h2 { font-size:40px; }
+  .footer-top { display:flex; }
+}
+@media(min-width:761px) and (max-width:1200px) {
+  .features-section .split-heading { grid-template-columns:1.6fr 1fr; }
+  .what-section .job-card { width:100%; grid-template-columns:24% 68%; gap:4%; }
+  .what-section .job-image { width:100%; }
+  .access-card { padding:40px; }
+}

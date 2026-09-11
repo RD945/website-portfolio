@@ -1,0 +1,17 @@
+# Dependencies and generated build output
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/.output/
+**/.nitro/
+**/.tanstack/
+**/.vercel/
+
+# Test reports and local development files
+**/test-results/
+**/playwright-report/
+**/blob-report/
+*.local
+.env
+.env.*
+!.env.example

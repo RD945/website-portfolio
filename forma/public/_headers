@@ -1,0 +1,11 @@
+# Honored by hosts supporting _headers, including Netlify and Cloudflare Pages.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+/images/*
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+/fonts/*
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+/
+  Cache-Control: public, max-age=0, must-revalidate
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate

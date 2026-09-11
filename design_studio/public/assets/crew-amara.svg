@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img">
+  <defs>
+    <linearGradient id="amara-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#26121d" /><stop offset="0.5" stop-color="#8c3f4f" /><stop offset="1" stop-color="#ed9c73" /></linearGradient>
+    <radialGradient id="amara-light"><stop stop-color="#ff9f8b" stop-opacity="0.9" /><stop offset="1" stop-color="#e7467b" stop-opacity="0" /></radialGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#amara-bg)" />
+  <circle cx="435" cy="260" r="225" fill="url(#amara-light)" opacity="0.48" />
+  <path d="M55 600c18-166 80-242 245-242 153 0 220 75 244 242Z" fill="#171017" />
+  <path d="M210 309c6-84 44-137 103-137 66 0 100 64 97 137-3 64-38 112-98 112-61 0-106-48-102-112Z" fill="#c27e68" />
+  <path d="M201 258c3-104 44-157 120-157 62 0 104 48 93 134-39-15-63-54-118-43-38 8-54 36-95 66Z" fill="#22151c" />
+  <path d="M233 327c30 13 79 12 112-4" fill="none" stroke="#6e3945" stroke-width="8" stroke-linecap="round" />
+  <circle cx="277" cy="287" r="6" fill="#24171c" /><circle cx="352" cy="287" r="6" fill="#24171c" />
+  <path d="M235 433c39 30 92 32 143-2" fill="#361a32" opacity="0.88" />
+  <path d="M70 558c94-47 164-51 226-18 65-32 146-24 190 18" fill="none" stroke="#ffb08d" stroke-opacity="0.36" stroke-width="5" />
+</svg>

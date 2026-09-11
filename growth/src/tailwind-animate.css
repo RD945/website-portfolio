@@ -1,0 +1,12 @@
+
+html.no-transitions *,
+html.no-transitions *::before,
+html.no-transitions *::after {
+    transition-duration: 0.01ms !important;
+    transition-delay: 0s !important;
+    animation-duration: 0.01ms !important;
+    animation-delay: -0.01ms !important;
+    scroll-behavior: auto !important;
+
+}
+  

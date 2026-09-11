@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img">
+  <defs>
+    <linearGradient id="niko-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e0e0df" /><stop offset="0.43" stop-color="#777d83" /><stop offset="1" stop-color="#191b20" /></linearGradient>
+    <linearGradient id="niko-shirt" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#25282d" /><stop offset="1" stop-color="#07090c" /></linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#niko-bg)" />
+  <path d="M43 600c29-164 89-240 249-240 143 0 214 78 265 240Z" fill="url(#niko-shirt)" />
+  <path d="M198 310c3-85 45-137 105-137 64 0 99 58 95 137-4 64-40 111-99 111-59 0-103-47-101-111Z" fill="#a6a09b" />
+  <path d="M196 270c-5-88 39-143 108-143 60 0 103 39 104 121-32-23-59-42-99-33-44 9-72 36-113 55Z" fill="#26272a" />
+  <path d="M231 327c30 14 76 14 111-1" fill="none" stroke="#616063" stroke-width="8" stroke-linecap="round" />
+  <circle cx="276" cy="286" r="6" fill="#28292b" /><circle cx="350" cy="286" r="6" fill="#28292b" />
+  <path d="M238 431c39 27 92 29 139 0" fill="#17191c" opacity="0.9" />
+  <path d="M82 555c96-44 169-45 229-15 64-30 137-23 184 15" fill="none" stroke="#fff" stroke-opacity="0.38" stroke-width="5" />
+</svg>

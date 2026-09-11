@@ -1,0 +1,195 @@
+/* The approach is a centered process rail, not a stack of expandable FAQs. */
+.process-list {
+  max-width: 660px;
+  margin-inline: auto;
+  padding: 70px 0 0 58px !important;
+}
+
+.detail-type {
+  display: none;
+}
+
+.process-progress {
+  top: 0;
+  bottom: 0;
+  left: 24px !important;
+  width: 3px;
+  transform: translateX(-50%);
+  border-radius: 999px;
+  background: #93a080;
+  z-index: 0;
+}
+
+.process-progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: var(--process-progress);
+  border-radius: inherit;
+}
+
+.process-list details,
+.process-list details:last-child {
+  width: 100%;
+  margin-inline: 0;
+  padding: 0 0 76px;
+  text-align: left;
+  z-index: 1;
+}
+
+.process-list details:last-child {
+  padding-bottom: 0;
+}
+
+.process-list details:not([open]) > p {
+  display: block;
+}
+
+.process-list details::before {
+  top: 0;
+  left: -34px !important;
+  width: 13px;
+  height: 13px;
+  transform: translate(-50%, 0);
+  background: var(--sage-light);
+  border-color: #71836b;
+}
+
+.process-list details.is-active {
+  transform: none;
+}
+
+.process-list details[open]:not(.is-active) {
+  opacity: .55;
+}
+
+.process-list summary {
+  display: flex !important;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 9px;
+  padding: 0 !important;
+  cursor: default;
+  text-align: left;
+}
+
+.process-list summary::marker,
+.process-list summary::-webkit-details-marker {
+  display: none;
+  content: '';
+}
+
+.process-list summary > span:first-child {
+  color: var(--rust);
+  font-family: var(--sans);
+  font-size: 12px;
+  letter-spacing: .12em;
+}
+
+.process-list summary .plus {
+  display: none;
+}
+
+.process-list details p {
+  max-width: 440px;
+  margin: 19px 0 0 !important;
+  padding: 18px 0 0 !important;
+  border-top: 1px solid #acb69a;
+  text-align: left;
+}
+
+@media (max-width: 700px) {
+  .process-list {
+    max-width: 520px;
+    padding: 58px 0 0 48px !important;
+  }
+
+  .process-list details,
+  .process-list details:last-child {
+    padding-bottom: 58px;
+  }
+
+  .process-list details p {
+    padding-inline: 18px !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .process-progress span,
+  .process-list details,
+  .process-list details::before {
+    transition: none !important;
+  }
+}
+
+/* Let the studies carry more of the page while preserving their diagonal rhythm. */
+.project-grid {
+  column-gap: clamp(24px, 4vw, 64px);
+  row-gap: clamp(112px, 12vw, 176px);
+}
+
+.project-grid > .project-large {
+  grid-column: 1 / span 9;
+}
+
+.project-grid > .project-small {
+  grid-column: 4 / span 9;
+}
+
+.project-grid > .project-third {
+  grid-column: 1 / span 9;
+}
+
+.project-grid > .project-statement {
+  grid-column: 10 / span 3;
+}
+
+.project-view {
+  z-index: 2;
+  white-space: nowrap;
+}
+
+@media (max-width: 1050px) and (min-width: 701px) {
+  .project-grid > .project-large {
+    grid-column: 1 / span 8;
+  }
+
+  .project-grid > .project-small {
+    grid-column: 4 / span 8;
+  }
+
+  .project-grid > .project-third {
+    grid-column: 1 / span 8;
+  }
+
+  .project-grid > .project-statement {
+    grid-column: 9 / span 4;
+  }
+}
+
+@media (max-width: 700px) {
+  .project-grid {
+    row-gap: 76px;
+  }
+
+  .project-grid > .project-large,
+  .project-grid > .project-small,
+  .project-grid > .project-third,
+  .project-grid > .project-statement {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
+  .project-image {
+    position: relative;
+  }
+
+  .project-view {
+    right: 12px;
+    bottom: 12px;
+    z-index: 3;
+    max-width: calc(100% - 24px);
+    transform: none !important;
+    white-space: nowrap;
+  }
+}
