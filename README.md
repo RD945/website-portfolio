@@ -1,6 +1,6 @@
 # Website Collection
 
-This directory contains five independent website projects. Each website is in
+This directory contains four independent website projects. Each website is in
 its own folder and has its own `package.json`, development server, and build
 script.
 
@@ -54,18 +54,6 @@ script.
   cart state saved in local storage, sample pricing, downloadable order briefs,
   FAQs, and responsive navigation.
 
-### 5. Nexora
-
-- **Folder:** `growth/`
-- **Website name:** Nexora
-- **Vercel:** https://nexora-nu-khaki-88.vercel.app
-- **What it is about:** An SEO growth intelligence product that turns search
-  data into practical actions. It helps users compare competitors, identify
-  keyword gaps, analyze backlink profiles, and prioritize ranking opportunities.
-- **Notable features:** SEO product hero, backlink profile analysis, shared
-  keyword comparison, ranking opportunity insights, FAQ, domain analysis CTA,
-  and responsive navigation.
-
 ## Running a website
 
 Run commands from the website's folder:
@@ -86,8 +74,7 @@ npm run build
 Create one Vercel project per website folder and set that folder as the
 project's **Root Directory**. Each folder includes its own `vercel.json`.
 
-- Static Vite sites deploy from `dist`: `butter`, `forma`, `growth`, and
-  `webmaker`.
+- Static Vite sites deploy from `dist`: `butter`, `forma`, and `webmaker`.
 - `auralia` uses TanStack Start with Nitro's Vercel preset and deploys its
   generated server function and static assets from `.vercel/output`.
 
