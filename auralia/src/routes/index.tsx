@@ -50,7 +50,7 @@ import { Logo, LogoMark } from "@/components/Logo";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Auralis — The Wireless Headphones of the Future" },
+      { title: "Auralis" },
       {
         name: "description",
         content:

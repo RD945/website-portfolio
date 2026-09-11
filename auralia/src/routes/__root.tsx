@@ -80,7 +80,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Auralis — The Wireless Headphones of the Future" },
+      { title: "Auralis" },
       {
         name: "description",
         content: "High-resolution audio, active noise cancellation and spatial sound from Auralis.",

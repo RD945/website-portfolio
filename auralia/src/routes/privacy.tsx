@@ -6,7 +6,7 @@ import { Logo } from "@/components/Logo";
 export const Route = createFileRoute("/privacy")({
   head: () => ({
     meta: [
-      { title: "Privacy Policy — Auralis" },
+      { title: "Auralis" },
       {
         name: "description",
         content:

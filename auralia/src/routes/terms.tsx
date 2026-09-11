@@ -6,7 +6,7 @@ import { Logo } from "@/components/Logo";
 export const Route = createFileRoute("/terms")({
   head: () => ({
     meta: [
-      { title: "Terms of Service — Auralis" },
+      { title: "Auralis" },
       {
         name: "description",
         content:
