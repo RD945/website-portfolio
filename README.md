@@ -1,6 +1,6 @@
 # Website Collection
 
-This directory contains seven independent website projects. Each website is in
+This directory contains five independent website projects. Each website is in
 its own folder and has its own `package.json`, development server, and build
 script.
 
@@ -31,17 +31,7 @@ script.
   templates, testimonials, FAQ, responsive navigation, and signup calls to
   action.
 
-### 3. Framehouse Films
-
-- **Folder:** `design_studio/`
-- **Website name:** Framehouse Films
-- **Vercel:** https://framehouse-films.vercel.app
-- **What it is about:** A film production house for commercial films, narrative
-  films, music videos, documentaries, and post-production work.
-- **Notable features:** Selected film portfolio, expandable service list, crew
-  profiles, responsive navigation, reveal animations, and a contact CTA.
-
-### 4. FORMA
+### 3. FORMA
 
 - **Folder:** `forma/`
 - **Website name:** FORMA
@@ -56,7 +46,7 @@ script.
   photography are illustrative and should be replaced with approved commercial
   content before launch.
 
-### 5. Nexora
+### 4. Nexora
 
 - **Folder:** `growth/`
 - **Website name:** Nexora
@@ -68,18 +58,7 @@ script.
   keyword comparison, ranking opportunity insights, FAQ, domain analysis CTA,
   and responsive navigation.
 
-### 6. Experience Welcome
-
-- **Folder:** `portfolio/`
-- **Website name:** Experience Welcome / Welcome
-- **Vercel:** https://experience-welcome.vercel.app
-- **What it is about:** A marketing website for Welcome, a webinar platform for
-  marketers who want to host engaging virtual experiences that drive revenue.
-- **Notable features:** Interactive overlays, polls, Q&A, chat, HD video,
-  Welcome Studio tools, integrations, customer stories, performance metrics,
-  articles, events, newsletter signup, and demo CTAs.
-
-### 7. Sitecraft
+### 5. Sitecraft
 
 - **Folder:** `webmaker/`
 - **Website name:** Sitecraft
@@ -112,8 +91,8 @@ npm run build
 Create one Vercel project per website folder and set that folder as the
 project's **Root Directory**. Each folder includes its own `vercel.json`.
 
-- Static Vite sites deploy from `dist`: `butter`, `design_studio`, `forma`,
-  `growth`, `portfolio`, and `webmaker`.
+- Static Vite sites deploy from `dist`: `butter`, `forma`, `growth`, and
+  `webmaker`.
 - `auralia` uses TanStack Start with Nitro's Vercel preset and deploys its
   generated server function and static assets from `.vercel/output`.
 

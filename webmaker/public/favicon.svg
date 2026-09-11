@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Sitecraft</title>
+  <rect width="64" height="64" rx="16" fill="#f3eee8"/>
+  <path d="m32 6 5 18.7L56 19l-14.7 13L56 45l-19-5.7L32 58l-5-18.7L8 45l14.7-13L8 19l19 5.7L32 6Z" fill="#f47243"/>
+</svg>

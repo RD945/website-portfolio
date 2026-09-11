@@ -50,13 +50,11 @@ export const FooterLinks = () => {
                   Get in touch
                 </div>
                 <div data-uid="EcWZaZl0xYgYeV08" className="text-gray-400 text-sm box-border caret-transparent tracking-[-0.14px] leading-6 outline-[3px] font-system_ui md:font-inter_v">
-                  120 Ocean Drive
+                  Dubai World Trade Centre
                   <br data-uid="B6ptL5TzFS-_-0fi" className="box-border caret-transparent outline-[3px] font-system_ui md:font-inter_v" />
-                  Suite 400
+                  Sheikh Zayed Road
                   <br data-uid="18ej25369gmuRiwA" className="box-border caret-transparent outline-[3px] font-system_ui md:font-inter_v" />
-                  Austin, Texas 78701
-                  <br data-uid="4C0tNsYbcvl5952A" className="box-border caret-transparent outline-[3px] font-system_ui md:font-inter_v" />
-                  United States
+                  Dubai, United Arab Emirates
                 </div>
                 <div data-uid="OfFBOj6WJRO2kHaL" className="box-border caret-transparent outline-[3px] font-system_ui md:font-inter_v"></div>
               </div>

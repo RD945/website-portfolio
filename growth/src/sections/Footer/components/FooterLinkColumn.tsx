@@ -42,7 +42,7 @@ export const FooterLinkColumn = (props: FooterLinkColumnProps) => {
           >
             <a data-uid="sBYfhQPJrOr4LX-t"
               href={link.href}
-              className="text-gray-500 text-sm box-border caret-transparent tracking-[-0.14px] leading-6 outline-[3px] font-system_ui md:text-gray-400 md:font-inter_v hover:text-gray-300 hover:border-gray-300"
+              className="inline-flex text-gray-500 text-sm box-border caret-transparent tracking-[-0.14px] leading-6 outline-[3px] transition-[color,transform] duration-200 font-system_ui md:text-gray-400 md:font-inter_v hover:-translate-y-0.5 hover:text-white focus-visible:text-white"
             >
               {link.label}
             </a>

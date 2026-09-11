@@ -1,6 +1,0 @@
-node_modules/
-dist/
-dist-ssr/
-.vercel/
-test-results/
-playwright-report/

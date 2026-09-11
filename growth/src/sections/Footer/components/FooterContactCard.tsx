@@ -15,13 +15,11 @@ export const FooterContactCard = () => {
                 Get in touch
               </div>
               <div data-uid="DddWf2YRpjzoaie8" className="text-gray-400 text-sm box-border caret-transparent tracking-[-0.14px] leading-6 outline-[3px] font-system_ui md:font-inter_v">
-                120 Ocean Drive
+                Dubai World Trade Centre
                 <br data-uid="9dA3FGaMIqH2qlGX" className="box-border caret-transparent outline-[3px] font-system_ui md:font-inter_v" />
-                Suite 400
+                Sheikh Zayed Road
                 <br data-uid="Xnt79jD_AmWqsO06" className="box-border caret-transparent outline-[3px] font-system_ui md:font-inter_v" />
-                Austin, Texas 78701
-                <br data-uid="D4yCrSQ5ZcfuG8-1" className="box-border caret-transparent outline-[3px] font-system_ui md:font-inter_v" />
-                United States
+                Dubai, United Arab Emirates
               </div>
               <div data-uid="Qbowdu1kBRBhASYi" className="box-border caret-transparent outline-[3px] font-system_ui md:font-inter_v"></div>
             </div>

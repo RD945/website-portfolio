@@ -1,11 +1,6 @@
 export const FooterBrand = () => {
   return (
     <div data-uid="LZowKHQxKvV89ceH" className="box-border caret-transparent min-h-0 min-w-0 outline-[3px] font-system_ui md:min-h-[auto] md:min-w-[auto] md:font-inter_v">
-      <img data-uid="sTl7Ef7POsx-Gj7L"
-        src="/assets/remote/c.animaapp.com/tO-VzA9Kzm3PB0vGDP_xYA/assets/icon-20.svg"
-        alt="Nexora"
-        className="box-border caret-transparent h-6 outline-[3px] align-baseline w-[82.29px] mb-6 font-system_ui md:font-inter_v"
-      />
       <div data-uid="xdkyQWW6g-fJ_ClU" className="box-border caret-transparent tracking-[-0.16px] leading-6 outline-[3px] mb-8 font-system_ui md:font-inter_v">
         <span data-uid="VAaCBN5csL1UITVn" className="text-transparent bg-clip-text bg-[linear-gradient(rgb(255,255,255)_22.5%,rgba(255,255,255,0.7)_100%)] box-border block outline-[3px] font-system_ui md:font-inter_v">
           Experience the next generation
