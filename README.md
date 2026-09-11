@@ -18,6 +18,8 @@ script.
   templates, testimonials, FAQ, responsive navigation, and signup calls to
   action.
 
+![Flow website preview](readme-images/flow.png)
+
 ### 2. FORMA
 
 - **Folder:** `forma/`
@@ -29,6 +31,8 @@ script.
 - **Notable features:** Architectural project studies, material palettes, an
   interactive Material Atelier, design approach/process sections, project
   dialogs, and a locally generated project brief.
+
+![FORMA website preview](readme-images/forma.png)
 
 ### 3. Auralis
 
@@ -43,6 +47,8 @@ script.
   feature and review sections, pricing selection, order dialog, privacy policy,
   and terms of service pages.
 
+![Auralis website preview](readme-images/auralis.png)
+
 ### 4. Sitecraft
 
 - **Folder:** `webmaker/`
@@ -53,6 +59,8 @@ script.
 - **Notable features:** Package filtering and sorting, package detail dialogs,
   cart state saved in local storage, sample pricing, downloadable order briefs,
   FAQs, and responsive navigation.
+
+![Sitecraft website preview](readme-images/sitecraft.png)
 
 ## Running a website
 
